@@ -290,6 +290,8 @@
             android:title="@string/experimental_webview"
             android:summary="@string/experimental_webview_summary"/>
 
-     </PreferenceCategory>
+
+       
+</PreferenceCategory>
 
 </PreferenceScreen>
