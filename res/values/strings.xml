@@ -4542,5 +4542,5 @@
     <string name="pref_center_clock_status_bar_summary">On the status bar aligns the clock to center (Wait for restarting SystemUI)</string> 
 <string name="app_ops_title">App Ops </string>
     <string name="app_ops_summary">Fine-grained permission controls</string>
-
+    <string name="builder_info_title"> Developer XPE </string>
 </resources>
