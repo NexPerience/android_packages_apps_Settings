@@ -70,6 +70,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
     private static final String KEY_DEVICE_CPU = "device_cpu";
     private static final String KEY_DEVICE_MEMORY = "device_memory";
     private static final String KEY_CM_UPDATES = "cm_updates";
+    private static final String KEY_XPERIENCE_DEV = "xpe_dev";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
     long[] mHits = new long[3];
@@ -94,6 +95,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
         setValueSummary(KEY_MOD_VERSION, "ro.cm.version");
         findPreference(KEY_MOD_VERSION).setEnabled(true);
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
+        setValueSummary(KEY_XPERIENCE_DEV, "ro.xpe.dev");
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);
